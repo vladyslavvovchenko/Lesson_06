@@ -35,7 +35,7 @@
     background-image: url(../img/sub-container.png), linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%);
     background-color: #141414;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .hero-text-box {
@@ -54,7 +54,6 @@
 .button{
     padding: 18px 24px;
     border-radius: 8px;
-    margin: 0 auto;
     background-color: #E50000;
     color: #FFF;
     font-size: 18px;
@@ -129,4 +128,5 @@
 .features-img{
     display: inline-block;
     vertical-align: top;
+    max-width: 529px;
 }
